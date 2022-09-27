@@ -2,7 +2,7 @@
   "name": "rogeriolugado",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://https://rogeriolugado.github.io//",
+  "homepage": "https://rogeriolugado.github.io//",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
