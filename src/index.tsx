@@ -10,8 +10,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <Routes>
         <Route index element={<App pagina='home'/>} />
         <Route path='home' element={<App pagina='home'/>} />
-        <Route path='nosso_trabalho' element={<App pagina='nosso_trabalho'/>} />
-        <Route path='o_atelie' element={<App pagina='o_atelie'/>} />
+        <Route path='habilidades_e_idiomas' element={<App pagina='habilidades_e_idiomas'/>} />
         <Route path='contato' element={<App pagina='contato'/>} />
       </Routes>
     </BrowserRouter>

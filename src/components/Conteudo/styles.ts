@@ -33,6 +33,8 @@ export const Container = styled.section `
         font-size: 30pt;
         text-align: left;
         font-weight: 500;
+        margin: 2.5rem 0 0 0;
+
     }
 
     .conteudo{
@@ -43,20 +45,12 @@ export const Container = styled.section `
         min-height: fit-content;
         max-height: 100%;
         max-width: 100%;
+        h2{
+            font-weight: 400;
+            text-indent: 0rem;
+        }
         @media (max-width: 500px){
             height: 100%;
         }
-    }
-
-    .apresentacao{
-        margin: 0.5rem;
-        text-align: center;
-        font-size: 1.5rem;
-        height: 100%;
-        width: 100%;
-    }
-
-    #grupoMurais{
-        margin-top: 3rem;
     }
 `

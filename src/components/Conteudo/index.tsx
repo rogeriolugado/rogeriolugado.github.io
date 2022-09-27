@@ -9,14 +9,7 @@ export function Conteudo({pagina}:ConteudoProps){
     return(
         <Container>
             {
-                pagina === 'nosso_trabalho'? 
-                <main id='main'>
-                    <h1 id="titulo">Nosso Trabalho</h1>
-                    <p className="conteudo">O Ateliê Girassol tem como objetivo contribuir com a aprendizagem dos alunos, orientação e formação dos professores e funcionários das escola e enriquecimento da documentação pedagógica. </p>
-                    <p className="conteudo">As práticas pedagógicas e documentação inspiradas em Lóris Malaguzzi visa trazer a pesquisa e vivências que coloquem a criança como protagonista de sua aprendizagem e o adulto como seu mediador. Tendo o brincar e o lúdico como pontos principais para a aprendizagem e o desenvolvimento do aluno da educação infantil, pois contribuem para o desenvolvimento pessoal e social da criança de maneira significativa e prazerosa. Alguns dos recursos que utilizamos são: Fotos e vídeos, Mini história, O brincar heurístico, Argila, Exploração de recursos naturais como pedras, folhas, preparação de tintas naturais e outros. Estamos a disposição para marcar uma reunião e apresentar nossa proposta completa. Desde já agradecemos!</p>
-                </main> 
-                : 
-                pagina === 'o_atelie'? 
+                pagina === 'habilidades_e_idiomas'? 
                 <div id='main'>
                     <h1 id="titulo">O Ateliê</h1>
                     <p className="conteudo">O que vem a sua cabeça quando pensa na palavra "Ateliê"? A maioria das pessoas irá responder "Arte" ou algo relacionado, porém, quando usamos "Ateliê" estamos indicando que este é um lugar de criação, de novo, único. </p>
@@ -31,12 +24,20 @@ export function Conteudo({pagina}:ConteudoProps){
                 </div> 
                 : 
                 <main id='main'>
-                    <h1 id="titulo">Seja bem-vindo!</h1>
+                    <h1 id="titulo">Formação Acadêmica</h1>
                     <hr />
-                    <p className="apresentacao">Aconchegue-se. Sinta-se à vontade para conhecer o nosso espaço de acolhimento, afeto e desenvolvimento.</p>
-                    <div id="grupoMurais">
-
-                    </div>
+                    <section className="conteudo">
+                        <h2>Graduação</h2>
+                        <ul>
+                            <li>{"Engenharia Química -> Escola de Engenharia Mauá"}</li>
+                            <li>Conclusão: Dezembro de 1988 </li>
+                        </ul>
+                        <h2>Pós-graduação</h2>
+                        <ul>
+                            <li>Escola Superior de Propaganda e Marketing</li>
+                            <li>Conclusão: Dezembro de 1992  </li>
+                        </ul>
+                    </section>
                 </main>
             }
         </Container>

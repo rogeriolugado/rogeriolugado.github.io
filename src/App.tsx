@@ -20,13 +20,9 @@ export const opcoes :Array<Topico> = [
       etiqueta: 'Pagina Inicial'
   },
   {
-      rota:'nosso_trabalho',
-      etiqueta:'Nosso Trabalho'
+      rota:'habilidades_e_idiomas',
+      etiqueta:'Habilidades & Idiomas'
   }, 
-  {
-      rota:'o_atelie',
-      etiqueta:'O Ateliê'
-  },  
   {
       rota:'contato',
       etiqueta:'Contato'
