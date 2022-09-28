@@ -2,13 +2,13 @@ import styled from 'styled-components'
 
 export const Container = styled.footer `
     width: 100%;
-    background-color: var(--secundary-color);
+    background-color: black;
     color: var(--primary-color);
     display: flex;
     flex-direction: column;
     #main{
         width: 100%;
-        background-color: var(--secundary-color);
+        background-color: black;
         color: var(--primary-color);
         display: flex;
         justify-content: space-around;
@@ -46,7 +46,7 @@ export const Container = styled.footer `
         width: 100%;
         display: flex;
         justify-content: center;
-        color: #755AB3;
+        color: var(--primary-color);
         a{
             padding-left: 0.5rem;
             text-decoration: none;

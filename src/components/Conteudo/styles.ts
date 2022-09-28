@@ -28,7 +28,7 @@ export const Container = styled.section `
         }
     }
 
-    #titulo {
+    .titulo {
         color: black;
         font-size: 30pt;
         text-align: left;
@@ -47,6 +47,26 @@ export const Container = styled.section `
         max-width: 100%;
         h2{
             font-weight: 400;
+            text-indent: 0rem;
+        }
+        
+        h3{
+            font-size: 2rem;
+            text-indent: 0rem;
+            margin:0;
+            padding: 3rem 0 0 0;
+        }
+        h4{
+            font-weight: 600;
+            text-indent: 0rem;
+        }
+        h6{
+            font-weight: 500;
+            text-indent: 0rem;
+            margin:0;
+            padding: 0;
+        }
+        li{
             text-indent: 0rem;
         }
         @media (max-width: 500px){

@@ -1,5 +1,4 @@
 import { Container } from './styles'
-import logotipo from '../../assets/icons/Logotipo-site.png'
 import { opcoes } from '../../App'
 import { Link } from 'react-router-dom'
 
@@ -8,7 +7,7 @@ export function Rodape(){
     return(
         <Container>
             <div id='main'>
-                <img src={logotipo} alt="logo atelie girassol"/>
+                <h1>Rogério L. U. Gado</h1>
                 <div id='navegue'>
                     <span>Navegue</span>
                     {opcoes.map((opt, key) => <Link to={`/${opt.rota}`} key={key.toString()}>{opt.etiqueta}</Link>)}
