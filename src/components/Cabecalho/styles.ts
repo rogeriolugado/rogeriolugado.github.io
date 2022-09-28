@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.header `
     background-color: var(--primary-color);
-    width: 100%;
+    min-width: 100vw;
     height: 6.5rem;
     display: flex;
     justify-content: space-between;
@@ -10,6 +10,9 @@ export const Container = styled.header `
     h1{
         padding-left: 3rem;
         font-size: 3rem;
+        @media (max-width: 500px) {
+            font-size: 1.5rem;
+        }
     }
     a{
         text-decoration: none;
@@ -84,7 +87,7 @@ export const Container = styled.header `
         height: 95vh;
         display: flex;
         flex-direction: column;
-        background-color: #ffb20f;
+        background-color: var(--primary-color);
         align-items: center;
         justify-content: space-evenly;
         a{

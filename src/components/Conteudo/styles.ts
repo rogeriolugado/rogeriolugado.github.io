@@ -71,6 +71,7 @@ export const Container = styled.section `
         }
         @media (max-width: 500px){
             height: 100%;
+            text-align: left;
         }
     }
 `

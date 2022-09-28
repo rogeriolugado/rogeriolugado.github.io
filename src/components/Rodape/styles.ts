@@ -15,6 +15,12 @@ export const Container = styled.footer `
         align-items: center;
         flex-direction: row;
     }
+    h1{
+        @media (max-width: 500px) {
+            font-size: 1.5rem;
+            max-width: 30%;
+        }
+    }
     img{
         padding: 1rem;
         max-width: 15%;
@@ -27,6 +33,9 @@ export const Container = styled.footer `
         display: flex;
         flex-direction: column;
         margin: 0.5rem;
+        @media (max-width: 500px) {
+            width: 50%;
+        }
         span{
             font-weight: 600;
             font-size: 1.25rem;
