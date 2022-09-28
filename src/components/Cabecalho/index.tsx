@@ -21,7 +21,7 @@ export function Cabecalho({funcaoCabecalho, estadoCabecalho}:CabecalhoProps){
             {largura > 501? 
             <>
                 <h1>Rogério Luiz Urbano Gado</h1>
-                {opcoes.map(op => <Link to={`/${op.rota}`}>{op.etiqueta}</Link>)}
+                <div id="links">{opcoes.map(op => <Link to={`/${op.rota}`}>{op.etiqueta}</Link>)}</div>
                 
             </> 
             :

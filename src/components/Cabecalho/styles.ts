@@ -3,11 +3,14 @@ import styled from 'styled-components'
 export const Container = styled.header `
     background-color: var(--primary-color);
     width: 100%;
-    height: 5rem;
+    height: 6.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    h1{
+        padding-left: 3rem;
+        font-size: 3rem;
+    }
     a{
         text-decoration: none;
         color: black;
@@ -90,5 +93,12 @@ export const Container = styled.header `
             flex-direction: column;
             align-items: center;
         }
+    }
+    #links{
+        display: flex;
+        min-height: 5rem;
+        flex-direction: column;
+        margin: 0.5rem;
+        padding: 0.5rem;
     }
 `
