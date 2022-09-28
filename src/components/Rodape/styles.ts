@@ -34,7 +34,7 @@ export const Container = styled.footer `
         flex-direction: column;
         margin: 0.5rem;
         @media (max-width: 500px) {
-            width: 50%;
+            width: 58%;
         }
         span{
             font-weight: 600;

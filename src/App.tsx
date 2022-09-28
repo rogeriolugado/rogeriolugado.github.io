@@ -25,7 +25,7 @@ export const opcoes :Array<Topico> = [
   }, 
   {
       rota:'contato',
-      etiqueta:'Contato'
+      etiqueta:'Informações Pessoais & Contato '
   }
 ]
 

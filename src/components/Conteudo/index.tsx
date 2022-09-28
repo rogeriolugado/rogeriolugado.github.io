@@ -12,13 +12,44 @@ export function Conteudo({pagina}:ConteudoProps){
                 pagina === 'habilidades_e_idiomas'? 
                 <div id='main'>
                     <h1 id="titulo">{"Habilidades & Idiomas"}</h1>
-                    
+                    <section className='conteudo'>
+                        <h2>Habilidades</h2>
+                        <hr />
+                        <ul>
+                            <li>Vendas (Avançado)</li>
+                            <li>Marketing (Avançado)</li>
+                            <li>6 Sigma (Avançado)</li>
+                        </ul>
+                    </section>
+                    <section className='conteudo'>
+                        <h2>Idiomas</h2>
+                        <hr />
+                        <ul>
+                            <li>Português (Nativo)</li>
+                            <li>Inglês (Fluente)</li>
+                            <li>Espanhol (Fluente)</li>
+                        </ul>
+                    </section>
                 </div> 
                 : 
                 pagina === 'contato'? 
                 <div id='main'>
-                    <h1 id="titulo">Contato</h1>
-                    <p className="conteudo">Tel: (11) 9xxxx-xxxx</p>
+                    <section className='conteudo'>
+                        <h2>Informações Pessoais</h2>
+                        <hr />
+                        <ul>
+                            <li>Idade: 56 anos</li>
+                            <li>Residência: Santo André, SP</li>
+                        </ul>
+                    </section>
+                    <section className='conteudo'>
+                        <h2>Contato</h2>
+                        <hr />
+                        <ul>
+                            <li>Telefone Celular: (11) 94234-9181</li>
+                            <li>Email: cattleboi@hotmail.com</li>
+                        </ul>
+                    </section>
                 </div> 
                 : 
                 <main id='main'>

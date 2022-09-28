@@ -10,7 +10,7 @@ export function Rodape(){
                 <h1>Rogério L. U. Gado</h1>
                 <div id='navegue'>
                     <span>Navegue</span>
-                    {opcoes.map((opt, key) => <Link to={`/${opt.rota}`} key={key.toString()}>{opt.etiqueta}</Link>)}
+                    {opcoes.map((opt, key) => <Link to={`/${opt.rota}`} onClick={() => document.querySelector('html')?.scrollTo(0,0)} key={key.toString()}>{opt.etiqueta}</Link>)}
                 </div>
             </div>
             <p>Feito com carinho pela <a href="https://www.empirestarltda.com">Empire Star</a></p>

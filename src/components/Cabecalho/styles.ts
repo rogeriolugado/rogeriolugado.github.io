@@ -103,5 +103,11 @@ export const Container = styled.header `
         flex-direction: column;
         margin: 0.5rem;
         padding: 0.5rem;
+        padding-right: 1rem;
+        a{
+            :hover{
+                color: var(--secundary-color-hover)
+            }
+        }
     }
 `
