@@ -1,5 +1,6 @@
 import { Container } from './styles'
-
+import maua from '../../assets/img/maua.svg'
+import espm from '../../assets/img/ESPM.svg'
 interface ConteudoProps{
     pagina:string
 }
@@ -57,15 +58,24 @@ export function Conteudo({pagina}:ConteudoProps){
                     <hr />
                     <section className="conteudo">
                         <h2>Graduação</h2>
-                        <ul>
-                            <li>{"Engenharia Química -> Escola de Engenharia Mauá"}</li>
-                            <li>Conclusão: Dezembro de 1988 </li>
-                        </ul>
+                        <div className="posicaoimg">
+                                <ul>
+                                    <li>{"Engenharia Química -> Escola de Engenharia Mauá"}</li>
+                                    <li>Conclusão: Dezembro de 1988 </li>
+                                </ul>
+                            <img src={maua} alt="logo mauá" />
+                        </div>
+                        
+                        
                         <h2>Pós-graduação</h2>
-                        <ul>
-                            <li>Escola Superior de Propaganda e Marketing</li>
-                            <li>Conclusão: Dezembro de 1992  </li>
-                        </ul>
+                        <div className="posicaoimg">
+                            <ul>
+                                <li>Escola Superior de Propaganda e Marketing</li>
+                                <li>Conclusão: Dezembro de 1992  </li>
+                            </ul>
+                            <img src={espm} alt="logo E S P M" />
+                        </div>
+                        
                     </section>
                     <h1 className="titulo">Resumo das qualificações</h1>
                     <hr />

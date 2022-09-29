@@ -69,9 +69,21 @@ export const Container = styled.section `
         li{
             text-indent: 0rem;
         }
+        .posicaoimg{
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+        }
         @media (max-width: 500px){
             height: 100%;
             text-align: left;
+            .posicaoimg{
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                justify-content: space-between;
+            }
         }
     }
 `
